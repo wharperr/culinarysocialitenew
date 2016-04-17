@@ -1,0 +1,402 @@
+#logo {
+    width: 70px;
+}
+#pagetop {
+    display: inline-block;
+}
+
+#pagetopcommentpg {
+    display: inline-block;
+    position: relative;
+    left: 280px;
+}
+
+body {
+	background-color: #1DC2C4;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	margin: 0px 35px 35px 40px;
+	padding: 25px;
+     }
+
+h2 {
+    font-family: Meddon, cursive;
+	color: white;
+	font-size: 63px;
+   }
+
+h1 {
+	font-family: Courgette, cursive;
+	color: black;
+	background-color: white;
+   }
+h4 {
+    font-family: Courgette, cursive;
+    font-size: 30px;
+}
+#mainlogo {
+    width: 300px;
+    
+}
+.closer {
+    text-align: center;
+}
+.sideicon {
+    width: 250px;
+    padding: 30px;
+}
+.nav {
+    display: inline;
+    padding: 7px;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF
+}
+ul {
+    text-align: center;
+    background-color: #000000;
+    font-family: Courgette, cursive;
+    font-size: 25px;
+}
+
+
+#commandments {
+    background-image: url(pictures/scroll.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 17px;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+/*Insert pic of dinner party*/
+}
+
+#commandmentstitle {
+    font-family: Meddon; 
+    font-size: 32px; 
+    color: #000000; 
+    text-align: center;
+}
+#clist {
+    list-style-type: none;
+    font-size: 20px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+#wrapper .foodnews {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    visibility: hidden;
+    font-size: 18px;
+}
+
+#wrapper:hover .foodnews {
+    visibility: visible;
+}
+
+#wrapper .aboutme {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    visibility: hidden;
+    font-size: 18px;
+}
+
+#wrapper:hover .aboutme {
+    visibility: visible;
+}
+
+#wrapper .topchef {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    visibility: hidden;
+    font-size: 18px;
+}
+
+#wrapper:hover .topchef {
+    visibility:visible;
+}
+
+#commentpage {
+    background-image: url("pictures/commentpg.png");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+}
+
+.timeline-both-side{
+  float: left; 
+  width: 96%; 
+  margin: 20px 2% 50px; 
+  position: relative; 
+  box-sizing: border-box;
+}
+.timeline-both-side:before{
+  background-color: #ccc; 
+  bottom: 0; 
+  content: " "; 
+  left: 50%; 
+  position: absolute; 
+  top: 0; 
+  width: 1px;
+}
+.timeline-both-side:after{
+  border-radius: 50%; 
+  bottom: -22px; 
+  content: ""; 
+  height: 18px; 
+  left: 50%; 
+  margin-left: -11px; 
+  position: absolute; 
+  width: 18px; 
+  border: 2px solid #ccc;
+}
+.timeline-both-side li {
+  position: relative; 
+  float: left; 
+  width: 100%;
+}
+.timeline-both-side li .border-line{
+  background-color: #ccc; 
+  font-size: 1.4em; 
+  height: 1px; 
+  left: 50%; 
+  margin-left: -8%; 
+  position: absolute; 
+  text-align: center; 
+  top: 50%; 
+  width: 8%; 
+  z-index: 100;
+}
+.timeline-both-side li.opposite-side .border-line{
+  left: auto; 
+  right: 50%; 
+  margin-left: 0; 
+  margin-right: -8%;
+  background-color: #1DC2C4;
+}
+.timeline-both-side li .border-line:before {
+  background-color: #ccc; 
+  content: ""; 
+  height: 7px; 
+  position: absolute; 
+  right: -4px; 
+  top: -3px; 
+  width: 7px;
+}
+.timeline-both-side li.opposite-side .border-line:before{
+  left: -4px; 
+  right: auto;
+  color: #000000;
+}
+.timeline-both-side li .timeline-description{
+  border-radius: 2px; 
+  background-color: #f1f1f1; 
+  border: 1px solid #ccc; 
+  float: left; 
+  font-size: 13px; 
+  padding: 10px; 
+  position: relative; 
+  width: 42%;
+}
+.timeline-both-side li.opposite-side .timeline-description{
+  float: right;
+}
+
+#tlli {
+  background-color: none;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+#onions {
+  width: 300px;
+}
+
+#cookies {
+  width: 350px;
+}
+
+#tlh2 {
+    background-color: none;
+}
+
+#cakemix {
+    width: 275px;
+    }
+    
+#chickenwings {
+    width: 325px;
+}
+
+#ff {
+    width: 400px;
+}
+
+#money {
+    width: 250px;
+}
+
+#bocuse {
+    width: 450px;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 275px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.chefnames {
+    font-family: Meddon, serif;
+    font-size: 24px;
+}
+
+#bobby {
+    position: relative;
+    top: -170px;
+}
+
+#jose {
+    position: relative;
+    top: -60px;
+}
+
+#anne {
+    position: relative;
+    top: -30px;
+}
+
+#carla {
+    position: relative;
+    top: -30px;
+}
+
+#alton {
+    position: relative;
+    top: -150px;
+}
+
+#martha {
+    position: relative;
+    top: -70px;
+}
+
+#andrew {
+    position: relative;
+    top: -30px;
+}
+
+#tom {
+    position: relative;
+    top: -180px;
+}
+
+/*.blur-box {
+    background-color: #555;
+    box-shadow: 0 0 5px 10px #555;
+} */
+
+
+.signature {
+    text-align: right; 
+    font-family: Meddon, serif;
+    font-size: 20px;
+}
+
+#aboutme {
+    display: inline-block;
+    margin: 20px;
+    width: 460px;
+}
+
+#aboutme2 {
+    display: inline-block;
+    margin: 20px;
+    width: 320px;
+    border: solid 1px #000000;
+}
+
+.subheader {
+    font-family: Courgette, cursive;
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	width: 200px;
+	min-height: 10em;
+	display: inline-block;
+	display: table-cell;
+	vertical-align: middle;
+}
+.recommendations {
+    background-color: #ffffff;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #000000;
+    padding: 60px;
+    text-align: justify;
+}
+
+.article:hover {
+        border: 5px solid #777;
+}
+
+.restaurantgrade {
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+}
+
+/*#marthalogo {
+    width: 100px;*/
+/*
+font family: 'Playfair Display', serif;
+font-family: 'Courgette', cursive;
+font-family: 'Meddon, cursive;'
+*/
+
+/*http://www.w3schools.com/css/css_image_gallery.asp*/
+
+.imagediv {
+    text-align: center;
+}
+
+.imagediv img {
+    width: 870px;
+    border: 1px solid black;
+}
+
+div {
+    border: 1px dashed red;
+}
