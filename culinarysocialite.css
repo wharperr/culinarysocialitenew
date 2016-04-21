@@ -222,6 +222,9 @@ a:hover {
   font-size: 18px;
 }
 
+#hawaiianfood {
+    width: 350px;
+}
 #onions {
   width: 300px;
 }
@@ -412,6 +415,7 @@ div.desc {
     color: #000000;
     padding: 60px;
     text-align: justify;
+    opacity: .9;
 }
 
 .article:hover {
@@ -450,4 +454,37 @@ font-family: 'Meddon, cursive;'
 
 .frontpage {
     display: inline-block;
+}
+
+#topcheftv {
+    width: 700px;
+}
+
+#topchefref {
+    width: 475px;
+}
+
+#goodeats {
+    width: 350px;
+}
+
+#ratdisney {
+    width: 700px;
+}
+
+#noreservations {
+    width: 650px;
+}
+
+#chefmovie {
+    width: 600px;
+}
+
+#bakeoff {
+    width: 650px;
+}
+
+.articlepage {
+    background-image: url("pictures/old_newspaper.jpg");
+    background-color: #000000;
 }
